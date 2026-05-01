@@ -1,0 +1,19 @@
+{
+  "part_code": "shrinkage",
+  "part_name": "수축률",
+  "part_description": "가공성능평가팀 수축률 파트 접수 현황 데이터",
+  "source_base_dirs": [
+    "\\\\SERVER\\PATH\\start"
+  ],
+  "target_dir": "\\\\SERVER\\PATH\\DB\\접수현황_수축률DB",
+  "sheet_name": "접수내역",
+  "table_name": "receipt_status",
+  "db_mode": "single_db",
+  "table_mode": "fixed",
+  "pattern": "*.xlsx",
+  "header_row": 3,
+  "data_start_row": 4,
+  "date_column": "접수일자",
+  "append_year_to_source_dir": true,
+  "single_db_name_template": "접수현황_수축률DB_{year}.db"
+}

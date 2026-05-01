@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+logs/
+output_db/
+output_db_*/
+sample/
+temp_rules.docx
+temp_rules.txt
+config/logs/
+
+config/parts/*.json
+!config/parts/*.example.json
+
+*.db
+*.db-shm
+*.db-wal
