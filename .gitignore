@@ -5,6 +5,7 @@ logs/
 output_db/
 output_db_*/
 sample/
+TF/
 temp_rules.docx
 temp_rules.txt
 config/logs/
